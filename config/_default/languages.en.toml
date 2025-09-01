@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Coding HedgheHog"
+title = "Coding Hedgehog"
 
 [params]
   displayName = "EN"
@@ -15,7 +15,7 @@ title = "Coding HedgheHog"
   copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "alikayan"
+  name = "Coding Hedgehog"
   email = "alikayann72@gmail.com"
   image = "img/hedgy.png"
   imageQuality = 96
