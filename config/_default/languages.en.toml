@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Coding HedgheHog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/hedgyicon.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "alikayan"
+  email = "alikayann72@gmail.com"
+  image = "img/hedgy.png"
+  imageQuality = 96
+  headline = "Programming & Finance"
+  bio = "I like programming and finance. I'm trying to write a little bit about both"
+  links = [
+    { email = "mailto:alikayann72@gmail.com" },
+    {github = "https://github.com/alikayan72"}
+  ]

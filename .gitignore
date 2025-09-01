@@ -1,0 +1,31 @@
+# Hugo build output
+/public/
+/resources/
+/hugo_stats.json
+
+.hugo_build.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if you’re using Tailwind, PostCSS, etc.)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Go (if using Hugo modules)
+go.sum
+go.mod
+
+# Backup and temp files
+*~
+*.bak
+
