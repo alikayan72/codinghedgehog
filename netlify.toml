@@ -9,9 +9,9 @@
   TZ = "UTC"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.104.1"
+  HUGO_VERSION = "0.149.0"
   HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.104.1"
+  HUGO_VERSION = "0.149.0"
 
