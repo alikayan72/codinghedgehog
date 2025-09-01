@@ -1,6 +1,6 @@
 +++
 date = '2025-09-01T16:34:00-04:00'
-draft = true
+draft = false
 title = 'A Synthetic Stock Price Generator in GoLang: Part 1'
 +++
 {{<katex>}}
