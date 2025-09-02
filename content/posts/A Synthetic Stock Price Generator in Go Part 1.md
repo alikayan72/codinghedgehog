@@ -11,6 +11,8 @@ title = 'A Synthetic Stock Price Generator in GoLang: Part 1'
 
 In this post, we are going to create a grpc service that will let you users get live and synthetic price information for a list of symbols. A request with a list of symbol will create a new market that publishes live price data every second for every symbol in the list. We will generate our prices using a gaussian walk, meaning we will choose the percentage change for our next step from a normal distribution.
 
+All the code in this article can be found on my [GitHub](https://github.com/alikayan72/hedgy)
+
 Now that we have a general idea let’s init our go module
 
 ```protobuf
@@ -310,4 +312,4 @@ Here we pass our request, specify the endpoint our server is running on, and cal
 
 I want to keep iterating on this project and document the journey along the way. Next up I’m planning to hook up to a price API to get the initial prices of the stocks as opposed to manually assigning them prices.
 
-Finally the link to the source can be found here https://github.com/alikayan72/hedgy
+Finally the link to the source can be found here [GitHub](https://github.com/alikayan72/hedgy)
