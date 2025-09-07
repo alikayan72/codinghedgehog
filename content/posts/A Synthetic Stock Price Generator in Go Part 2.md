@@ -1,6 +1,6 @@
 +++
 date = '2025-09-07T14:14:00-04:00'
-draft = true
+draft = false
 title = 'A Synthetic Stock Price Generator in GoLang: Part 2'
 +++ 
 
