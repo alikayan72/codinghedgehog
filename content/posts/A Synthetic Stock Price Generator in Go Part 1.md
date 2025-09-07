@@ -11,7 +11,9 @@ title = 'A Synthetic Stock Price Generator in GoLang: Part 1'
 
 In this post, we are going to create a grpc service that will let you users get live and synthetic price information for a list of symbols. A request with a list of symbol will create a new market that publishes live price data every second for every symbol in the list. We will generate our prices using a gaussian walk, meaning we will choose the percentage change for our next step from a normal distribution.
 
-All the code in this article can be found on my [GitHub](https://github.com/alikayan72/hedgy)
+All the code in this article can be found on my [GitHub](https://github.com/alikayan72/hedgy). 
+
+You can find the full blog series [here](/)
 
 Now that we have a general idea let’s init our go module
 
